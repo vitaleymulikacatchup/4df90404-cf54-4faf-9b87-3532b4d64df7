@@ -28,7 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}>
-        {children}
+        <SiteThemeProvider theme={{ styleVariant: "futuristicAndOutOfBox", colorTemplate: 2, textAnimation: true }}>
+          {children}
+        </SiteThemeProvider>
       </body>
     </html>
   );

@@ -9,7 +9,7 @@ import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 
 export default function Home() {
   return (
-    <SiteThemeProvider theme={{ styleVariant: "futuristicAndOutOfBox", colorTemplate: 2 }}>
+    <SiteThemeProvider theme={{ styleVariant: "futuristicAndOutOfBox", colorTemplate: 2, textAnimation: true }}>
       <NavbarBase
         brand="Photonex"
         leftActionLabel="Menu"
